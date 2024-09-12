@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "types": ["jest"],
     "target": "esnext",
     "module": "commonjs",
     "strict": true,
@@ -12,5 +13,5 @@
     "isolatedModules": true,
     "outDir": "dist"
   },
-  "exclude": ["node_modules"],
+  "exclude": ["node_modules", "jest.config.js", "test"],
 }
